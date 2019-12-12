@@ -18,10 +18,7 @@ class Business extends React.Component {
     return (
       <div className="Business">
         <div className="image-container">
-          <img
-            src="https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg"
-            alt=""
-          />
+          <img src={"business.imageSrc"} alt="" />
         </div>
         <h2>MarginOtto Pizzeria</h2>
         <div className="Business-information">
@@ -40,3 +37,4 @@ class Business extends React.Component {
     );
   }
 }
+export default Business;
